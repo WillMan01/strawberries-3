@@ -21,6 +21,33 @@ header h1 {
     background-repeat: no-repeat;
 }
 
+/*navigation links*/
+
+#menu {
+    
+    text-align: center;
+    margin: 0;
+    padding-left: 0;
+    background-color: greenyellow;
+    color: #6338a3;
+}
+
+#menu a:hover {
+    color: #E0115F;
+}
+
+#menu li a:hover {
+    border-bottom: 1px solid #E0115F;
+}
+
+#menu li {
+    display: inline;
+}
+
+#li-2 {
+    margin: 4% 20% 0
+}
+
 /*style for main content*/
 
 .main-content {
