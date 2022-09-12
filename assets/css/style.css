@@ -1,4 +1,27 @@
+/*style for header*/
 
+header h1 {
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px #E0115F;
+    border-radius: 20%;
+}
+
+#hero-div {
+    height: 220px;
+    background-color: #E0115F;
+    margin-bottom: 5%;
+    
+}
+
+#hero-image {
+    height: 100%;
+    background-size: cover;
+    align-content: center;
+    background-repeat: no-repeat;
+}
+
+/*style for main content*/
 
 .main-content {
     height:500px;
@@ -15,5 +38,22 @@
     background-size: cover;
     align-content: center;
     background-repeat: no-repeat;
+    border-radius: 30%;
+}
+
+/*footer*/
+
+footer {
+    padding-top: 5%;
+    margin-top: 5%;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    padding: 5%;
+    display: inline;
 }
 
